@@ -1,16 +1,11 @@
-!DOCTYPE html>
-<html lang="tr">
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Papa's Bakeria</title>
+  <title>Papa Louie 3: When Sundaes Attack!</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
-    #ruffle-container { width: 100vw; height: 100vh; }
-    ruffle-embed, embed { width: 100% !important; height: 100% !important; }
     html, body {
       width: 100%;
       height: 100%;
@@ -52,9 +47,8 @@
       container.appendChild(player);
 
       player.load({
-        url: "papaLouie3.swf",
+        url: "PapaLouie3.swf", // GitHub deponuzdaki SWF dosya adıyla birebir aynı olmalı (büyük/küçük harf dahil)
         autoplay: "on",
-        allowScriptAccess: true
         allowScriptAccess: true,
         scale: "showAll",
         quality: "high"
@@ -68,3 +62,5 @@
       });
     });
   </script>
+</body>
+</html>
